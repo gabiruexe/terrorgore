@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 20px;
+	font-family: fantasy; 
+	background: #000000;
+	color: #FFFFFF;
+}
+
+/*Cabeçalho*/
+#cabecalho  {
+	background-color: #FF0000;
+	padding: 15px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#cabecalho a:link, #cabecalho a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+	margin: 0px 5px;
+	font-weight: normal;
+}
+
+#cabecalho a:hover {
+	color: black;
+	background: #E55B41;
+	padding: 5px;
+	border-radius: 2px;
+}
+
+#titulo {
+	padding: 10px;
+}
+
+/*Cabeçalho*/
+
+/*-----Principal-----*/
+
+#principal {
+	width: 920px;
+	margin: 0px auto;
+	padding: 5px;
+}
+
+#principal img {
+	width: 600px;
+	height: 425px;
+	border-radius: 2px;
+}
+
+/*-----Principal-----*/
+
+/*-----Conteudos-----*/
+
+#postagens {
+	float: left;
+	width: 610px;
+	padding: 10px; 
+	margin-bottom: 10px;
+}
+
+#postagens a:link, #postagens a:visited {
+	color: red;
+	font-weight: normal;
+	font-size: 0.9em;
+}
+
+#postagens a:hover {
+	color: red;
+	font-weight: normal;
+	text-decoration: underline;
+} 
+
+.conteudos p {
+	font-size: 0.8em;
+}
+
+/*-----Conteudos-----*/
+
+/*-----Lateral-----*/
+
+#lateral {
+	float: right;
+	width: 260px;
+	padding: 5px;
+	background-color: #841B0E;
+}
+
+#lateral p {
+	font-size: 0.8em;
+}
+
+#lateral h3 {
+	color: #FFFFFF;
+	padding: 5px;
+	background-color: black;
+	margin-top: 10px;
+}
+
+.conteudo-lateral {
+	border-bottom: 2px dotted red;
+}
+
+.conteudo-lateral a{
+	display: block;
+	margin-bottom: 7px;
+}
+
+.conteudo-lateral2 a:link, .conteudo-lateral2 a:visited{
+	display: block;
+	color:  white;
+	font-weight: normal;
+	padding: 3px;
+}
+
+.conteudo-lateral2 a:hover {
+	color: red;
+}
+
+/*-----Lateral-----*/
+
+/*-----Rodape-----*/
+#rodape {
+	clear: both;
+	background-color: #FF0000;
+	padding: 10px;
+	text-align: center;
+}
+/*-----Rodape-----*/
+
+
+/*Configs Gerais*/
+
+a:link, a:visited {
+	color: black;
+	text-decoration: none;
+	font-weight: 800;
+}
+
+a:hover {
+	color: #FF0000;
+}
